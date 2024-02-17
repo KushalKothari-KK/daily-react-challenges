@@ -1,9 +1,9 @@
-import FetchDisplay from "./components/FetchDisplay";
+import SimpleTodo from "./components/SimpleTodo";
 
 function App() {
   return (
     <div className="App">
-      <FetchDisplay />
+      <SimpleTodo />
     </div>
   );
 }
