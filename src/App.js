@@ -1,9 +1,9 @@
-import SimpleTodo from "./components/SimpleTodo";
+import RandomQuote from "./components/RandomQuote";
 
 function App() {
   return (
     <div className="App">
-      <SimpleTodo />
+      <RandomQuote />
     </div>
   );
 }
