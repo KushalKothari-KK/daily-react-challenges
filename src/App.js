@@ -1,9 +1,9 @@
-import RandomQuote from "./components/RandomQuote";
+import BasicLoginRegistration from "./components/BasicLoginRegistration";
 
 function App() {
   return (
     <div className="App">
-      <RandomQuote />
+      <BasicLoginRegistration />
     </div>
   );
 }
