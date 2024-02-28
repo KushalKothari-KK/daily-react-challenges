@@ -1,9 +1,9 @@
-import BasicLoginRegistration from "./components/BasicLoginRegistration";
+import WeatherAppLocation from "./components/WeatherAppLocation";
 
 function App() {
   return (
     <div className="App">
-      <BasicLoginRegistration />
+      <WeatherAppLocation />
     </div>
   );
 }
