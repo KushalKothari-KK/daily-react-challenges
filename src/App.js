@@ -1,9 +1,9 @@
-import WeatherAppLocation from "./components/WeatherAppLocation";
+import Pagination from "./components/Pagination";
 
 function App() {
   return (
     <div className="App">
-      <WeatherAppLocation />
+      <Pagination />
     </div>
   );
 }

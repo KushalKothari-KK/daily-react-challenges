@@ -1,16 +1,11 @@
 import React, { useState } from "react";
-const items = [
-  "Item 1",
-  "Another Item 2",
-  "New Item 3",
-  "Something Item",
-  "Item 4",
-];
+import { ITEMS } from "../utils/constant";
+
 const SearchItems = () => {
   const [inputValue, setInputValue] = useState("");
   const [SearchList, setSearchList] = useState([]);
   const handleFilterList = () => {
-    const filterItems = items.filter((item) =>
+    const filterItems = ITEMS.filter((item) =>
       item.toLowerCase().includes(inputValue.toLowerCase())
     );
     setSearchList(filterItems);
