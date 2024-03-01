@@ -1,9 +1,9 @@
-import ColorPicker from "./components/ColorPicker";
+import ResponsiveHamburgerMenu from "./components/ResponsiveHamburgerMenu";
 
 function App() {
   return (
     <div className="App">
-      <ColorPicker />
+      <ResponsiveHamburgerMenu />
     </div>
   );
 }
