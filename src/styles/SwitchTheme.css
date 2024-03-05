@@ -1,0 +1,13 @@
+.container {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+.dark-theme {
+  background-color: rgb(58, 54, 54);
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
