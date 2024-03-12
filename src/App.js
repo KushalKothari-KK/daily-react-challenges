@@ -1,9 +1,12 @@
-import ResponsiveHamburgerMenu from "./components/ResponsiveHamburgerMenu";
+import { ShoppingCartReducer } from "./components/ShoppingCartReducer";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (
     <div className="App">
-      <ResponsiveHamburgerMenu />
+      <CartProvider>
+        <ShoppingCartReducer />
+      </CartProvider>
     </div>
   );
 }
