@@ -1,12 +1,9 @@
-import { ShoppingCartReducer } from "./components/ShoppingCartReducer";
-import { CartProvider } from "./context/CartContext";
+import SimpleCounterReducer from "./components/SimpleCounterReducer";
 
 function App() {
   return (
     <div className="App">
-      <CartProvider>
-        <ShoppingCartReducer />
-      </CartProvider>
+      <SimpleCounterReducer />
     </div>
   );
 }
