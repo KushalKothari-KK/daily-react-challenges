@@ -1,9 +1,9 @@
-import SimpleCounterReducer from "./components/SimpleCounterReducer";
+import { SimpleTodoReducer } from "./components/SimpleTodoReducer";
 
 function App() {
   return (
     <div className="App">
-      <SimpleCounterReducer />
+      <SimpleTodoReducer />
     </div>
   );
 }
