@@ -1,9 +1,9 @@
-import { SimpleTodoReducer } from "./components/SimpleTodoReducer";
+import { PaginationReducer } from "./components/PaginationReducer";
 
 function App() {
   return (
     <div className="App">
-      <SimpleTodoReducer />
+      <PaginationReducer />
     </div>
   );
 }
