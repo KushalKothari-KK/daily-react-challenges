@@ -1,9 +1,12 @@
-import { PaginationReducer } from "./components/PaginationReducer";
+import { AuthContextPage } from "./components/AuthContextPage";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
     <div className="App">
-      <PaginationReducer />
+      <AuthProvider>
+        <AuthContextPage />
+      </AuthProvider>
     </div>
   );
 }
