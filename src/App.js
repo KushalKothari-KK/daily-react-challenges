@@ -1,9 +1,9 @@
-import ImageGallery from "./components/ImageGallery";
+import Todolist from "./components/Todo/Todolist";
 
 function App() {
   return (
     <div className="App">
-        <ImageGallery />
+        <Todolist />
     </div>
   );
 }
