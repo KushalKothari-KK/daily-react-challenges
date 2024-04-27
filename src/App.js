@@ -1,9 +1,9 @@
-import MulitValuesOneState from "./components/MulitValuesOneState";
+import ImageGallery from "./components/ImageGallery";
 
 function App() {
   return (
     <div className="App">
-        <MulitValuesOneState />
+        <ImageGallery />
     </div>
   );
 }
