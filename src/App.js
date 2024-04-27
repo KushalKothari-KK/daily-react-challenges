@@ -1,12 +1,9 @@
-import { TranslationContext } from "./components/TranslationContext";
-import { LocalizationProvider } from "./context/LocalizationContext";
+import MulitValuesOneState from "./components/MulitValuesOneState";
 
 function App() {
   return (
     <div className="App">
-      <LocalizationProvider>
-        <TranslationContext />
-      </LocalizationProvider>
+        <MulitValuesOneState />
     </div>
   );
 }
