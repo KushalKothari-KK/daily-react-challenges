@@ -1,12 +1,12 @@
-import { AuthContextPage } from "./components/AuthContextPage";
-import { AuthProvider } from "./context/AuthContext";
+import { TranslationContext } from "./components/TranslationContext";
+import { LocalizationProvider } from "./context/LocalizationContext";
 
 function App() {
   return (
     <div className="App">
-      <AuthProvider>
-        <AuthContextPage />
-      </AuthProvider>
+      <LocalizationProvider>
+        <TranslationContext />
+      </LocalizationProvider>
     </div>
   );
 }
