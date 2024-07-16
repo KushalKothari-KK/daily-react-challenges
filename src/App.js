@@ -1,9 +1,9 @@
-import ProgressBar from "./components/Custom Features/ProgressBar";
+import StarRating from "./components/Custom Features/StarRating";
 
 function App() {
   return (
     <div className="App">
-        <ProgressBar />
+        <StarRating />
     </div>
   );
 }
