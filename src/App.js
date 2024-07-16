@@ -1,9 +1,9 @@
-import Todolist from "./components/Todo/Todolist";
+import ProgressBar from "./components/Custom Features/ProgressBar";
 
 function App() {
   return (
     <div className="App">
-        <Todolist />
+        <ProgressBar />
     </div>
   );
 }

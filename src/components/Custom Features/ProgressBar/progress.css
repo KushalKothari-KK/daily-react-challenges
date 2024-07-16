@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.progress-container{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
