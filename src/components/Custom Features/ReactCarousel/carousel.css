@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+}
+
+img{
+    height: 400px;
+    width: 100%;
+}
+
+.leftButton, .rightButton{
+ position: absolute;
+ top: 50%;
+ background-color: black;
+ color: white;
+ padding: 0.5rem;
+ border-radius: 5px;
+}
+
+.leftButton{
+    left: 1rem;
+}
+
+.rightButton{
+   right: 1rem;
+}

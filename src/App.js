@@ -1,9 +1,9 @@
-import StarRating from "./components/Custom Features/StarRating";
+import ReactCarousel from "./components/Custom Features/ReactCarousel";
 
 function App() {
   return (
     <div className="App">
-        <StarRating />
+        <ReactCarousel />
     </div>
   );
 }
