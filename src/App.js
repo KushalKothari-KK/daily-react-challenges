@@ -1,9 +1,9 @@
-import ReactCarousel from "./components/Custom Features/ReactCarousel";
+import InfiniteScroll from "./components/Custom Features/InfiniteScroll";
 
 function App() {
   return (
     <div className="App">
-        <ReactCarousel />
+        <InfiniteScroll />
     </div>
   );
 }
