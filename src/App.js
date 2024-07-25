@@ -1,9 +1,9 @@
-import InfiniteScroll from "./components/Custom Features/InfiniteScroll";
+import FaqAccordion from "./components/Custom Features/FaqAccordion";
 
 function App() {
   return (
     <div className="App">
-        <InfiniteScroll />
+        <FaqAccordion/>
     </div>
   );
 }
