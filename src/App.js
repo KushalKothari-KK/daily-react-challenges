@@ -1,9 +1,9 @@
-import FaqAccordion from "./components/Custom Features/FaqAccordion";
+import TicTacToe from "./components/Custom Features/TicTacToe";
 
 function App() {
   return (
     <div className="App">
-        <FaqAccordion/>
+        <TicTacToe size={4}/>
     </div>
   );
 }
