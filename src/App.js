@@ -1,9 +1,9 @@
-import TicTacToe from "./components/Custom Features/TicTacToe";
+import OtpInputBox from "./components/Custom Features/OtpInputBox";
 
 function App() {
   return (
     <div className="App">
-        <TicTacToe size={4}/>
+        <OtpInputBox otpLenght={4}/>
     </div>
   );
 }
