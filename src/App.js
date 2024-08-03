@@ -1,9 +1,9 @@
-import OtpInputBox from "./components/Custom Features/OtpInputBox";
+import ImagePagination from "./components/Custom Features/ImagePagination";
 
 function App() {
   return (
     <div className="App">
-        <OtpInputBox otpLenght={4}/>
+        <ImagePagination/>
     </div>
   );
 }

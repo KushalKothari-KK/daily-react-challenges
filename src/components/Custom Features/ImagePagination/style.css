@@ -1,0 +1,31 @@
+.container{
+    width: 550px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.page-container{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+}
+
+.page-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.active-btn{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
