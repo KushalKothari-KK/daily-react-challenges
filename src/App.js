@@ -1,9 +1,9 @@
-import ImagePagination from "./components/Custom Features/ImagePagination";
+import StopWatch from "./components/Custom Features/StopWatch";
 
 function App() {
   return (
     <div className="App">
-        <ImagePagination/>
+        <StopWatch/>
     </div>
   );
 }
