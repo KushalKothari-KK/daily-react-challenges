@@ -1,9 +1,9 @@
-import StopWatch from "./components/Custom Features/StopWatch";
+import FileExplorer from "./components/Custom Features/FileExplorer";
 
 function App() {
   return (
     <div className="App">
-        <StopWatch/>
+        <FileExplorer/>
     </div>
   );
 }
