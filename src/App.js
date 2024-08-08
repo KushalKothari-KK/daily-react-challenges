@@ -1,9 +1,9 @@
-import FileExplorer from "./components/Custom Features/FileExplorer";
+import InteractiveShape from "./components/Custom Features/InteractiveShape";
 
 function App() {
   return (
     <div className="App">
-        <FileExplorer/>
+        <InteractiveShape/>
     </div>
   );
 }
