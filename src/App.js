@@ -1,9 +1,9 @@
-import InteractiveShape from "./components/Custom Features/InteractiveShape";
+import ToastNotification from "./components/Custom Features/ToastNotification";
 
 function App() {
   return (
     <div className="App">
-        <InteractiveShape/>
+        <ToastNotification/>
     </div>
   );
 }
