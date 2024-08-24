@@ -1,9 +1,9 @@
-import ToastNotification from "./components/Custom Features/ToastNotification";
+import TypeAhead from "./components/Custom Features/TypeAhead";
 
 function App() {
   return (
     <div className="App">
-        <ToastNotification/>
+        <TypeAhead/>
     </div>
   );
 }
