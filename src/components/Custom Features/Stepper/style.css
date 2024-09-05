@@ -1,0 +1,37 @@
+.stepper{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stepper-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.step-number{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.step-line{
+    width: 2px;
+    height: 2rem;
+    position: absolute;
+    top: 2.5rem;
+    background-color: grey;
+}
+
+.active{
+    background-color: blue;
+}

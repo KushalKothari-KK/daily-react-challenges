@@ -1,9 +1,9 @@
-import TrafficLights from "./components/Custom Features/TrafficLights";
+import Stepper from "./components/Custom Features/Stepper";
 
 function App() {
   return (
     <div className="App">
-        <TrafficLights/>
+        <Stepper/>
     </div>
   );
 }
