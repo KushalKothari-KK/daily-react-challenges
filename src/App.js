@@ -1,9 +1,9 @@
-import Stepper from "./components/Custom Features/Stepper";
+import DragDrop from "./components/Custom Features/DragDrop";
 
 function App() {
   return (
     <div className="App">
-        <Stepper/>
+        <DragDrop/>
     </div>
   );
 }

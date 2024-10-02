@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    background-color: darkgray;
+    min-height: 300,
+}
+.container-block{
+    padding: 1rem;
+}
+
+.items{
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    cursor: move;
+}
