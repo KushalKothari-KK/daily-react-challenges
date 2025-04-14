@@ -1,9 +1,9 @@
-import DragDrop from "./components/Custom Features/DragDrop";
+import UseTimeoutHook from "./components/Custom Features/UseTimeoutHook";
 
 function App() {
   return (
     <div className="App">
-        <DragDrop/>
+        <UseTimeoutHook/>
     </div>
   );
 }
